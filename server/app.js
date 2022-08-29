@@ -8,7 +8,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(cors());
 app.use('/',UsersRouter);
-mongoose.connect("mongodb+srv://bkalivas:bkalivas@cluster0.lzfus.mongodb.net/umsdatabase?retryWrites=true&w=majority", {
+mongoose.connect("MONGO_URL", {
     useNewUrlParser: true,
 });
 
