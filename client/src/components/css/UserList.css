@@ -1,0 +1,20 @@
+input{
+  width:200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.table{
+  overflow-x: scroll !important;
+  overflow-y: auto !important;
+}
+ .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type="checkbox"]{
+  display: none;
+}
